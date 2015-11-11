@@ -1,1 +1,361 @@
-{}
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Per",
+				"PerfilFletero_list"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "templates/mascota/listar.html",
+			"settings":
+			{
+				"buffer_size": 433,
+				"line_ending": "Unix",
+				"name": "listar.html"
+			}
+		},
+		{
+			"file": "templates/mascota/crear.html",
+			"settings":
+			{
+				"buffer_size": 257,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/huachimingo/prueba1/mascota/models.py",
+			"settings":
+			{
+				"buffer_size": 599,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/huachimingo/prueba1/mascota/views.py",
+			"settings":
+			{
+				"buffer_size": 595,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/huachimingo/prueba1/prueba1",
+		"/home/huachimingo/prueba1/prueba1/templates",
+		"/home/huachimingo/prueba1/prueba1/templates/mascota",
+		"/media/huachimingo/MYLINUXLIVE/buscamascota"
+	],
+	"file_history":
+	[
+		"/home/huachimingo/prueba1/prueba1/templates/mascota/crear.html",
+		"/home/huachimingo/prueba1/mascota/urls.py",
+		"/home/huachimingo/prueba1/mascota/views.py",
+		"/home/huachimingo/prueba1/mascota/models.py",
+		"/home/huachimingo/prueba1/prueba1/urls.py",
+		"/home/huachimingo/prueba1/prueba1/settings.py",
+		"/home/huachimingo/prueba1/mascota/admin.py",
+		"/home/huachimingo/prueba1/raza/models.py",
+		"/home/huachimingo/prueba1/prueba1/templates/listar.html",
+		"/home/huachimingo/proyecto33/cotizacion/views.py",
+		"/media/huachimingo/MYLINUXLIVE/buscamascota/mascota/views.py",
+		"/home/huachimingo/prueba1/usuario/models.py",
+		"/home/huachimingo/prueba1/raza/admin.py",
+		"/home/huachimingo/prueba1/usuario/admin.py",
+		"/home/huachimingo/proyecto33/cotizacion/models.py",
+		"/home/huachimingo/proyecto33/manage.py",
+		"/home/huachimingo/prueba1/prueba1/__init__.sublime-project",
+		"/home/huachimingo/proyecto33/bolsafletero/models.py",
+		"/home/huachimingo/proyecto3/bolsafletero/models.py",
+		"/home/huachimingo/proyecto3/fletero/models.py",
+		"/home/huachimingo/proyecto3/fletero/urls.py",
+		"/home/huachimingo/proyecto3/proyecto3/urls.py",
+		"/home/huachimingo/proyecto3/usuario/models.py",
+		"/home/huachimingo/proyecto3/tipo_carga/models.py",
+		"/home/huachimingo/proyecto3/oferta/models.py",
+		"/home/huachimingo/proyecto3/cotizacion/models.py",
+		"/home/huachimingo/proyecto3/bolsa/models.py",
+		"/home/huachimingo/proyecto3/proyecto3/templates/Fletero/PerfilFletero_Crear.html",
+		"/home/huachimingo/proyecto3/proyecto3/templates/Fletero/PerfilFletero_list.html",
+		"/home/huachimingo/proyecto3/fletero/views.py",
+		"/home/huachimingo/proyecto3/proyecto3/settings.py",
+		"/home/huachimingo/proyecto3/cotizacion/admin.py",
+		"/home/huachimingo/proyecto3/bolsa/admin.py",
+		"/home/huachimingo/proyecto3/bolsafletero/admin.py",
+		"/home/huachimingo/proyecto3/tipo_carga/admin.py",
+		"/home/huachimingo/proyecto3/oferta/admin.py",
+		"/home/huachimingo/proyecto2/demo/models.py"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "templates/mascota/listar.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 433,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								375,
+								375
+							]
+						],
+						"settings":
+						{
+							"auto_name": "listar.html",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "templates/mascota/crear.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 257,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								225,
+								225
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/huachimingo/prueba1/mascota/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 599,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								430,
+								430
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/huachimingo/prueba1/mascota/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 595,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								515,
+								515
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 27.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "__init__.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 153.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

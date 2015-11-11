@@ -5,7 +5,7 @@
 	<ul>
 	<h1> Lista de Mascotas</h1>
 		{% for e in object_list %}
-			<li> dueno: {{e.dueno}}<br>
+			<li> dueño: {{e.dueno}}<br>
 				 raza: {{e.raza}}<br>
 				 color: {{e.color}}<br>
 				 sexo: {{e.sexo}}<br>
@@ -13,7 +13,6 @@
 				 esta perdido?: {{e.perdido}}<br>
 				 recompenza: {{e.recompenza}}<br>
 				 foto: {{e.foto}}<br>
-				 <a>  <img src="http://{{ e.foto }}" height="420"></a>
 				 <br>
 				 </li>
 			
