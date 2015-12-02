@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"b",
+				"button	Tag"
+			],
+			[
+				"rever",
+				"reverse_lazy"
+			],
+			[
 				"Per",
 				"PerfilFletero_list"
 			]
@@ -12,35 +20,63 @@
 	"buffers":
 	[
 		{
-			"file": "templates/mascota/listar.html",
+			"file": "/home/huachimingo/prueba1/mascota_perdida/urls.py",
 			"settings":
 			{
-				"buffer_size": 433,
+				"buffer_size": 198,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/mascota_perdida/update.html",
+			"settings":
+			{
+				"buffer_size": 105,
 				"line_ending": "Unix",
-				"name": "listar.html"
+				"name": "update.html"
 			}
 		},
 		{
-			"file": "templates/mascota/crear.html",
+			"file": "/home/huachimingo/prueba1/mascota_perdida/models.py",
 			"settings":
 			{
-				"buffer_size": 257,
+				"buffer_size": 537,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/huachimingo/prueba1/mascota/models.py",
+			"contents": "<head>\n	<title> mascotas encontradas /perdidas</title>\n</head>\n<section>\n	<ul>\n	<h1> mascotas encontradas /perdidas</h1>\n		{% for e in object_list %}\n			<li> raza: {{e.raza}}<br>\n				 color: {{e.color}}<br>\n				 sexo: {{e.sexo}}<br>\n				 descripcion: {{e.descripcion}}<br>\n				 recompenza: {{e.recompenza}}<br>\n				 sector: {{e.sector}}<br>\n				 direccion: {{e.direccion}}\n				 foto: {{e.foto}}<br>\n				 <br>\n				 <button></button>\n				 </li>\n			\n		{% endfor %}\n	</ul>\n</section>",
+			"file": "templates/mascota_perdida/listar.html",
+			"file_size": 456,
+			"file_write_time": 130935438868704571,
 			"settings":
 			{
-				"buffer_size": 599,
+				"buffer_size": 479,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/huachimingo/prueba1/mascota/views.py",
+			"file": "templates/mascota/listar_perdidas.html",
 			"settings":
 			{
-				"buffer_size": 595,
+				"buffer_size": 79,
+				"line_ending": "Unix",
+				"name": "listar_perdidas.html"
+			}
+		},
+		{
+			"file": "/home/huachimingo/prueba1/mascota_perdida/views.py",
+			"settings":
+			{
+				"buffer_size": 524,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/huachimingo/prueba1/mascota/urls.py",
+			"settings":
+			{
+				"buffer_size": 260,
 				"line_ending": "Unix"
 			}
 		}
@@ -52,18 +88,24 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 0.0,
-		"last_filter": "",
+		"height": 294.0,
+		"last_filter": "Package Control: ",
 		"selected_items":
 		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
 		],
-		"width": 0.0
+		"width": 349.0
 	},
 	"console":
 	{
-		"height": 0.0,
+		"height": 109.0,
 		"history":
 		[
+			"import urllib2,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation') ",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
 		]
 	},
 	"distraction_free":
@@ -77,19 +119,65 @@
 	},
 	"expanded_folders":
 	[
-		"/home/huachimingo/prueba1/prueba1",
+		"/home/huachimingo/prueba1",
+		"/home/huachimingo/prueba1/mascota_perdida",
 		"/home/huachimingo/prueba1/prueba1/templates",
-		"/home/huachimingo/prueba1/prueba1/templates/mascota",
-		"/media/huachimingo/MYLINUXLIVE/buscamascota"
+		"/home/huachimingo/prueba1/prueba1/templates/mascota_perdida",
+		"/home/huachimingo/Escritorio/proyectoregistro post listo/proyecto-unido/bolsafletero",
+		"/home/huachimingo/Escritorio/proyectoregistro post listo/proyecto-unido/cotizacion",
+		"/home/huachimingo/Escritorio/proyectoregistro post listo/proyecto-unido/proyecto3",
+		"/home/huachimingo/Escritorio/proyectoregistro post listo/proyecto-unido/proyecto3/templates"
 	],
 	"file_history":
 	[
-		"/home/huachimingo/prueba1/prueba1/templates/mascota/crear.html",
-		"/home/huachimingo/prueba1/mascota/urls.py",
 		"/home/huachimingo/prueba1/mascota/views.py",
-		"/home/huachimingo/prueba1/mascota/models.py",
 		"/home/huachimingo/prueba1/prueba1/urls.py",
+		"/home/huachimingo/prueba1/mascota_perdida/views.py",
+		"/home/huachimingo/prueba1/mascota_perdida/urls.py",
+		"/home/huachimingo/prueba1/prueba1/templates/mascota/listar.html",
+		"/home/huachimingo/prueba1/mascota_perdida/models.py",
 		"/home/huachimingo/prueba1/prueba1/settings.py",
+		"/home/huachimingo/prueba1/mascota_perdida/admin.py",
+		"/home/huachimingo/prueba1/prueba1/templates/mascota/crear.html",
+		"/home/huachimingo/Escritorio/proyectoregistro post listo/proyecto3/bolsafletero/views.py",
+		"/home/huachimingo/Escritorio/proyectoregistro post listo/proyecto3/tipo_carga/urls.py",
+		"/home/huachimingo/Escritorio/proyectoregistro post listo/proyecto3/tipo_carga/views.py",
+		"/home/huachimingo/Escritorio/proyectoregistro post listo/proyecto3/oferta/views.py",
+		"/home/huachimingo/Escritorio/proyectoregistro post listo/proyecto3/fletero/views.py",
+		"/home/huachimingo/Escritorio/proyectoregistro post listo/proyecto3/cotizacion/views.py",
+		"/home/huachimingo/Proyecto con Vistas List Create/proyecto3/proyecto3/tipo_carga/urls.py",
+		"/home/huachimingo/Escritorio/proyectoregistro post listo/proyecto3/bolsa/views.py",
+		"/home/huachimingo/Escritorio/proyectoregistro post listo/proyecto3/proyecto3/templates/Tipo_Carga/tipocarga_confirm_delete.html",
+		"/home/huachimingo/Proyecto con Vistas List Create/proyecto3/proyecto3/tipo_carga/views.py",
+		"/home/huachimingo/Proyecto con Vistas List Create/proyecto3/proyecto3/bolsafletero/urls.py",
+		"/home/huachimingo/Proyecto con Vistas List Create/proyecto3/proyecto3/bolsa/views.py",
+		"/home/huachimingo/Proyecto con Vistas List Create/proyecto3/proyecto3/proyecto3/templates/BolsaPeso/bolsapeso_confirm_delete.html",
+		"/home/huachimingo/Proyecto con Vistas List Create/proyecto3/proyecto3/proyecto3/templates/BolsaPeso/bolsapeso_update.html",
+		"/home/huachimingo/Escritorio/proyectoregistro post listo/proyecto3/proyecto3/templates/BolsaPeso/bolsapeso_confirm_delete.html",
+		"/home/huachimingo/Proyecto con Vistas List Create/proyecto3/proyecto3/proyecto3/templates/Tipo_Carga/tipocarga_confirm_delete.html",
+		"/home/huachimingo/Proyecto con Vistas List Create/proyecto3/proyecto3/proyecto3/templates/Tipo_Carga/tipocarga_update.html",
+		"/home/huachimingo/Proyecto con Vistas List Create/proyecto3/proyecto3/oferta/urls.py",
+		"/home/huachimingo/Proyecto con Vistas List Create/proyecto3/proyecto3/oferta/views.py",
+		"/home/huachimingo/Proyecto con Vistas List Create/proyecto3/proyecto3/proyecto3/templates/Oferta/oferta_confirm_delete.html",
+		"/home/huachimingo/Proyecto con Vistas List Create/proyecto3/proyecto3/proyecto3/templates/Oferta/.html",
+		"/home/huachimingo/Proyecto con Vistas List Create/proyecto3/proyecto3/proyecto3/templates/Oferta/oferta_update.html",
+		"/home/huachimingo/Proyecto con Vistas List Create/proyecto3/proyecto3/fletero/views.py",
+		"/home/huachimingo/Proyecto con Vistas List Create/proyecto3/proyecto3/fletero/urls.py",
+		"/home/huachimingo/Proyecto con Vistas List Create/proyecto3/proyecto3/proyecto3/templates/Fletero/perfilfletero_confirm_delete.html",
+		"/home/huachimingo/Proyecto con Vistas List Create/proyecto3/proyecto3/proyecto3/templates/Fletero/perfilfletero_update.html",
+		"/home/huachimingo/Proyecto con Vistas List Create/proyecto3/proyecto3/cotizacion/views.py",
+		"/home/huachimingo/Proyecto con Vistas List Create/proyecto3/proyecto3/cotizacion/urls.py",
+		"/home/huachimingo/Proyecto con Vistas List Create/proyecto3/proyecto3/proyecto3/templates/Cotizacion/cotizacion_confirm_delete.html",
+		"/home/huachimingo/Proyecto con Vistas List Create/proyecto3/proyecto3/proyecto3/templates/Cotizacion/cotizacion_update.html",
+		"/home/huachimingo/Proyecto con Vistas List Create/proyecto3/proyecto3/proyecto3/templates/BolsaFletero/bolsafletero_confirm_delete.html",
+		"/home/huachimingo/Proyecto con Vistas List Create/proyecto3/proyecto3/bolsafletero/views.py",
+		"/home/huachimingo/Proyecto con Vistas List Create/proyecto3/proyecto3/proyecto3/templates/BolsaFletero/bolsafletero_delete.html",
+		"/home/huachimingo/Proyecto con Vistas List Create/proyecto3/proyecto3/proyecto3/templates/BolsaFletero/bolsafletero_Crear.html",
+		"/home/huachimingo/Proyecto con Vistas List Create/proyecto3/proyecto3/bolsa/urls.py",
+		"/home/huachimingo/Proyecto con Vistas List Create/proyecto3/proyecto3/proyecto3/templates/BolsaPeso/bolsapeso_delete.html",
+		"/home/huachimingo/Proyecto con Vistas List Create/proyecto3/proyecto3/proyecto3/templates/BolsaFletero/bolsafletero_update.html",
+		"/home/huachimingo/prueba1/mascota/models.py",
+		"/home/huachimingo/prueba1/mascota/urls.py",
 		"/home/huachimingo/prueba1/mascota/admin.py",
 		"/home/huachimingo/prueba1/raza/models.py",
 		"/home/huachimingo/prueba1/prueba1/templates/listar.html",
@@ -155,30 +243,86 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "templates/mascota/listar.html",
+					"file": "/home/huachimingo/prueba1/mascota_perdida/urls.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 433,
+						"buffer_size": 198,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								375,
-								375
+								155,
+								155
 							]
 						],
 						"settings":
 						{
-							"auto_name": "listar.html",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "templates/mascota_perdida/update.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 105,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								31,
+								31
+							]
+						],
+						"settings":
+						{
+							"auto_name": "update.html",
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/huachimingo/prueba1/mascota_perdida/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 537,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								508,
+								508
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -189,88 +333,118 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "templates/mascota/crear.html",
+					"buffer": 3,
+					"file": "templates/mascota_perdida/listar.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 257,
+						"buffer_size": 479,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								225,
-								225
+								422,
+								422
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/home/huachimingo/prueba1/mascota/models.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 599,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								430,
-								430
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "/home/huachimingo/prueba1/mascota/views.py",
+					"buffer": 4,
+					"file": "templates/mascota/listar_perdidas.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 595,
+						"buffer_size": 79,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								515,
-								515
+								39,
+								39
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage"
+							"auto_name": "listar_perdidas.html",
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/huachimingo/prueba1/mascota_perdida/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 524,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								492,
+								492
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/home/huachimingo/prueba1/mascota/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 260,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								182,
+								182
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
 					"type": "text"
 				}
 			]
@@ -353,7 +527,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 153.0,
+	"side_bar_width": 224.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

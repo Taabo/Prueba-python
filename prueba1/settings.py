@@ -40,6 +40,7 @@ INSTALLED_APPS = (
     'raza',
     'usuario',
     'mascota',
+    'mascota_perdida',
 )
 
 MIDDLEWARE_CLASSES = (

@@ -1,0 +1,22 @@
+<head>
+	<title> mascotas encontradas /perdidas</title>
+</head>
+<section>
+	<ul>
+	<h1> mascotas encontradas /perdidas</h1>
+		{% for e in object_list %}
+			<li> raza: {{e.raza}}<br>
+				 color: {{e.color}}<br>
+				 sexo: {{e.sexo}}<br>
+				 descripcion: {{e.descripcion}}<br>
+				 recompenza: {{e.recompenza}}<br>
+				 sector: {{e.sector}}<br>
+				 direccion: {{e.direccion}}
+				 foto: {{e.foto}}<br>
+				 <br>
+				 <button></button>
+				 </li>
+			
+		{% endfor %}
+	</ul>
+</section>
