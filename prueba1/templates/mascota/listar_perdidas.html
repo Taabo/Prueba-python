@@ -1,9 +1,22 @@
-<<!DOCTYPE html>
-<html>
 <head>
-	<title></title>
+	<title> Listar Mascotas perdidas</title>
 </head>
-<body>
-
-</body>
-</html>
+<section>
+	<ul>
+	<h1> Lista de Mascotas perdidas</h1>
+		{% for e in object_list %}
+			{%if e.perdido%}
+			<li> dueño: {{e.dueno}}<br>
+				 raza: {{e.raza}}<br>
+				 color: {{e.color}}<br>
+				 sexo: {{e.sexo}}<br>
+				 descripcion: {{e.descripcion}}<br>
+				 recompenza: {{e.recompenza}}<br>
+				 foto: {{e.foto}}<br>
+				 <br>
+				 </li>
+			{%endif%}
+			
+		{% endfor %}
+	</ul>
+</section>

@@ -20,9 +20,10 @@ class crear_mascota(CreateView):
 crear_mascota=crear_mascota.as_view()   
 
 
-'''class listar_perdidas(TemplateView):
-    model= mascota.object.all() 
+class listar_perdidas(ListView):
+    model= mascota
     template_name= 'mascota/listar_perdidas.html'
+    fields=['dueno','raza','color','sexo','descripcion','perdido','recompenza','foto']
 
-listar_perdidas = listar_perdidas.as_view()'''
+listar_perdidas = listar_perdidas.as_view()
 

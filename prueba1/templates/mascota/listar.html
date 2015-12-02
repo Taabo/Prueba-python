@@ -5,16 +5,17 @@
 	<ul>
 	<h1> Lista de Mascotas</h1>
 		{% for e in object_list %}
+			{%if e.perdido == False%}
 			<li> dueño: {{e.dueno}}<br>
 				 raza: {{e.raza}}<br>
 				 color: {{e.color}}<br>
 				 sexo: {{e.sexo}}<br>
 				 descripcion: {{e.descripcion}}<br>
-				 esta perdido?: {{e.perdido}}<br>
 				 recompenza: {{e.recompenza}}<br>
 				 foto: {{e.foto}}<br>
 				 <br>
 				 </li>
+			{%endif%}
 			
 		{% endfor %}
 	</ul>
